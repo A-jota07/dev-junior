@@ -1,11 +1,13 @@
+import { Suspense } from "react";
+
 export default async function HomePage() {
   return (
     <>
+    <Suspense> 
     Home do site
+    </Suspense>
 
-    <footer>
-      <p className='text-6xl font-bold text-center py-8'>Footer</p>
-    </footer>
+    
     </>
   )
 }
